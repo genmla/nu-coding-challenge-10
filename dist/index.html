@@ -1,12 +1,4 @@
-const Employee = require('./lib/employee');
-const Manager = require('./lib/manager')
-const Intern = require('./lib/intern')
-const Engineer = require('./lib/engineer')
-const fs = require("fs");
-const inquirer = require("inquirer")
-
-const generateHTML = () =>
-  `<!DOCTYPE html>
+<!DOCTYPE html>
   <html lang="en">
   
   <head>
@@ -72,52 +64,4 @@ const generateHTML = () =>
   
   </body>
   
-  </html>`
-
-
-//   inquirer
-//   .prompt([
-//     {
-//       type: 'input',
-//       name: 'name',
-//       message: 'What is your name?',
-//     },
-//     {
-//       type: 'input',
-//       name: 'location',
-//       message: 'Where are you from?',
-//     },
-//     {
-//       type: 'input',
-//       name: 'hobby',
-//       message: 'What is your favorite hobby?',
-//     },
-//     {
-//       type: 'input',
-//       name: 'food',
-//       message: 'What is your favorite food?',
-//     },
-//     {
-//       type: 'input',
-//       name: 'github',
-//       message: 'Enter your GitHub Username',
-//     },
-//     {
-//       type: 'input',
-//       name: 'linkedin',
-//       message: 'Enter your LinkedIn URL.',
-//     },
-//   ])
-//   .then((answers) => {
-//     const htmlPageContent = generateHTML(answers);
-
-//     fs.writeFile('./dist/index.html', htmlPageContent, (err) =>
-//       err ? console.log(err) : console.log('Successfully created index.html!')
-//     );
-//   });
-
-const htmlcontent = generateHTML();
-
-fs.writeFile('./dist/index.html', htmlcontent, (err) =>
-      err ? console.log(err) : console.log('Successfully created index.html!')
-    );
+  </html>
