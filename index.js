@@ -126,7 +126,7 @@ inquirer
                                                 }
                                                 generateEngineerCard = () =>
                                                     `
-                                                    <li class="list-group-item">GitHub: ${this.github}</li>
+                                                    <li class="list-group-item">GitHub: <a href="https://github.com/${this.github}">${this.github}</a></li>
                                                     </ul>
                                                     </div>`
                                             }
