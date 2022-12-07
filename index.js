@@ -11,7 +11,7 @@ inquirer
         },
         {
             type: 'input',
-            message: 'ID::',
+            message: 'ID:',
             name: 'id',
         },
         {
@@ -89,7 +89,7 @@ inquirer
                                         },
                                         {
                                             type: 'input',
-                                            message: 'ID::',
+                                            message: 'ID:',
                                             name: 'id',
                                         },
                                         {
@@ -165,7 +165,7 @@ inquirer
                                                                         },
                                                                         {
                                                                             type: 'input',
-                                                                            message: 'ID::',
+                                                                            message: 'ID:',
                                                                             name: 'id',
                                                                         },
                                                                         {
