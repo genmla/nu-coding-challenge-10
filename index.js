@@ -37,7 +37,6 @@ inquirer
                     super(response.name, response.id, response.email, response.role);
                     this.officeNumber = officeNumber;
                 }
-
                 getofficeNumber() {
                     console.log(`Office Number: ${officeNumber}`)
                 }
