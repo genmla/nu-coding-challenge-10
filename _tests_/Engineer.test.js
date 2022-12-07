@@ -3,6 +3,11 @@ const Engineer = require('../lib/engineer');
 
 const engineer = new Engineer ('gitHub')
 
-test("Manager", () => {
+test("Engineer should return the entered gitHub", () => {
   expect(engineer.github).toEqual('gitHub')
+})
+
+test("getGithub() should return entered school", () => {
+
+  expect(engineer.getGithub()).toEqual("gitHub")
 })
